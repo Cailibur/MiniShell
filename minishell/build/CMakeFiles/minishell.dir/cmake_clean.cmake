@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/src/builtins.c.o.d"
   "CMakeFiles/minishell.dir/src/executor.c.o"
   "CMakeFiles/minishell.dir/src/executor.c.o.d"
+  "CMakeFiles/minishell.dir/src/job.c.o"
+  "CMakeFiles/minishell.dir/src/job.c.o.d"
   "CMakeFiles/minishell.dir/src/main.c.o"
   "CMakeFiles/minishell.dir/src/main.c.o.d"
   "CMakeFiles/minishell.dir/src/parser.c.o"
