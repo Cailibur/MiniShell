@@ -42,8 +42,9 @@ int parse_tokens(struct Token tokens[], int token_count, struct Command *cmd) {
             continue;
         }
 
-        if (tokens[i].type == TOK_AMP) {
+        if (tokens[i].type == TOK_AMP && i == token_count - 1) {
             cmd->background = 1;
+            token_count--;
             continue;
         }
     }

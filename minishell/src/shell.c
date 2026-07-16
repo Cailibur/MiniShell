@@ -2,12 +2,15 @@
 #include <string.h>
 #include <fcntl.h>
 #include <unistd.h> 
+#include <stdlib.h>
 #include "shell.h"
 #include "parser.h"
 #include "executor.h"
 #include "builtins.h"
 #include "tokenizer.h"
 #include "redirection.h"
+#include "color.h"
+#include "job.h"
 
 // 4.1
 int redirect_output(struct Command *cmd) {
@@ -66,7 +69,7 @@ void shell_loop(void) {
         int token_count;
         
         // 1.2 - 显示提示符 "MiniShell> ""
-        printf("MiniShell> ");
+        printf(COLOR_GREEN STYLE_BOLD "MiniShell> " STYLE_RESET);
         fflush(stdout); // 强制刷新标准输出缓冲区（把缓冲区未显示的内容立刻打印）
 
         // 1.2 - 读取整行输入
@@ -132,8 +135,22 @@ void shell_loop(void) {
             if  (apply_redirection(&cmd, &backup) != 0) {
                 continue;
             }
-
-            handle_builtin(&cmd, history, history_count);
+            if(cmd.background == 1){
+                pid_t pid = fork();
+                if(pid < 0){
+                    perror("fork");
+                }
+                else if(pid == 0){
+                    handle_builtin(&cmd, history, history_count);
+                    exit(1);
+                }
+                else{
+                    add_job(pid, line);
+                }
+            }
+            else{
+                handle_builtin(&cmd, history, history_count);
+            }
             restore_redirection(&backup);
             continue;
         }

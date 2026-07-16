@@ -7,6 +7,7 @@
 #include <utime.h>      // 3.3 - utime()
 #include <dirent.h>     // 3.4 - DIR / struct dirent / opendir() / readdir() / closedir()
 #include "builtins.h"
+#include "job.h"
 
 // 2.4 - 'cd -' 记录上一次工作目录
 static char oldpwd[MAX_LINE] = "";
@@ -67,7 +68,8 @@ int is_builtin(struct Command *cmd) {
            is_command(cmd, "mkdir") ||
            is_command(cmd, "rm") ||
            is_command(cmd, "touch") ||
-           is_command(cmd, "ls");
+           is_command(cmd, "ls") ||
+           is_command(cmd, "jobs");
 }
 
 int handle_builtin(struct Command *cmd, char history[][MAX_LINE], int history_count) {
@@ -357,6 +359,31 @@ int handle_builtin(struct Command *cmd, char history[][MAX_LINE], int history_co
         printf("\n");
         closedir(dir);  // 关闭目录流，释放内存
         return 1;
+    }
+
+    if(is_command(cmd, "jobs")){
+        if(cmd->argc > 2){
+            fprintf(stderr, "jobs: too many arguments\n");
+            return 1;
+        }
+        check_job();
+        if(cmd->argc == 1){
+            job_query();
+        }
+        else if(cmd->argc == 2){
+            if(strcmp(cmd->argv[1], "-l") == 0){
+                job_query();
+            }   
+            else if(strcmp(cmd->argv[1], "-r") == 0){
+                job_query_on_status(JOB_RUNNING);
+            }
+            else if(strcmp(cmd->argv[1], "-s") == 0){
+                job_query_on_status(JOB_STOPPED);
+            }
+            else{
+                fprintf(stderr, "jobs: invalid option: %s\n", cmd->argv[1]);
+            }
+        }
     }
 
     // 不是内置命令，交给外部命令执行逻辑

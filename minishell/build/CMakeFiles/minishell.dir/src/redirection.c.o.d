@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/redirection.c.o: \
- /home/afterstatue/workspace/MIniShell/minishell/src/redirection.c \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/redirection.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -38,5 +38,5 @@ CMakeFiles/minishell.dir/src/redirection.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/redirection.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/shell.h
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/redirection.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h

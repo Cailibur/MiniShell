@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/shell.c.o: \
- /home/afterstatue/workspace/MIniShell/minishell/src/shell.c \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/shell.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -40,12 +40,35 @@ CMakeFiles/minishell.dir/src/shell.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/shell.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/parser.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/shell.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/tokenizer.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/executor.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/builtins.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/tokenizer.h \
- /home/afterstatue/workspace/MIniShell/minishell/include/redirection.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/parser.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/executor.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/builtins.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/redirection.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/color.h \
+ /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/job.h
