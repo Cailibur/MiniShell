@@ -16,12 +16,12 @@ typedef struct job{
 int tot_job_id = 0;
 job jobs[MAX_JOBS];
 
-void add_job(pid_t pid, char* line){
+int add_job(pid_t pid, char* line){
     tot_job_id++;
     jobs[tot_job_id].pid = pid;
     strcpy(jobs[tot_job_id].command, line);
     jobs[tot_job_id].status = JOB_RUNNING;
-    return;
+    return tot_job_id;
 }
 
 void stop_job(int id){

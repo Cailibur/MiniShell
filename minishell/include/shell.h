@@ -24,6 +24,8 @@ struct AliasNode {
     struct AliasNode *next;
 };
 
+extern char line[MAX_LINE];    // #define MAX_LINE 1024
+
 // 1.2 Shell 主循环
 void shell_loop(void);
 

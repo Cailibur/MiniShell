@@ -14,6 +14,8 @@
 #include "job.h"
 #include "signals.h"
 
+char line[MAX_LINE];    // #define MAX_LINE 1024
+
 // 4.1
 int redirect_output(struct Command *cmd) {
     int saved_stdout = -1;
@@ -71,7 +73,7 @@ void write_history(const char *command) {
 }
 
 void shell_loop(void) {
-    char line[MAX_LINE];    // #define MAX_LINE 1024
+    
     char work_line[MAX_LINE];
 
     struct Command cmd;     // 存解析后的命令参数（argc + argv参数）
