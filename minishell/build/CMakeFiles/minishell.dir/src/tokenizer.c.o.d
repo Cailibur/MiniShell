@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/tokenizer.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/tokenizer.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/tokenizer.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -27,4 +27,4 @@ CMakeFiles/minishell.dir/src/tokenizer.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/tokenizer.h

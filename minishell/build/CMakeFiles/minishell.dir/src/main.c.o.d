@@ -1,4 +1,4 @@
 CMakeFiles/minishell.dir/src/main.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/main.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/main.c \
  /usr/include/stdc-predef.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h

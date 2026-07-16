@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/shell.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/shell.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/shell.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -62,13 +62,13 @@ CMakeFiles/minishell.dir/src/shell.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/parser.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/executor.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/builtins.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/redirection.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/color.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/job.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/parser.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/tokenizer.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/executor.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/builtins.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/tokenizer.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/redirection.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/color.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/job.h

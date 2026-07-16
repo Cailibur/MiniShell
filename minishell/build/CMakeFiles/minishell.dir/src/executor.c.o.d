@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/executor.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/executor.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/executor.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -70,9 +70,9 @@ CMakeFiles/minishell.dir/src/executor.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/parser.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/builtins.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/executor.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/redirection.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/parser.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/tokenizer.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/builtins.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/executor.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/redirection.h

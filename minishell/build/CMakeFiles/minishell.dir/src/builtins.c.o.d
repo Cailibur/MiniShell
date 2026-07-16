@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/builtins.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/builtins.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/builtins.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -70,6 +70,6 @@ CMakeFiles/minishell.dir/src/builtins.c.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/builtins.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/job.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/builtins.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/job.h

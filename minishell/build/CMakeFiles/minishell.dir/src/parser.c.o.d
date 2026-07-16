@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/parser.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/parser.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/parser.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,6 +13,6 @@ CMakeFiles/minishell.dir/src/parser.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/parser.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/tokenizer.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/parser.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/tokenizer.h

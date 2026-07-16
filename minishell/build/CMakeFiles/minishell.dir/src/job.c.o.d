@@ -1,5 +1,5 @@
 CMakeFiles/minishell.dir/src/job.c.o: \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/job.c \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/src/job.c \
  /usr/include/stdc-predef.h /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -71,5 +71,5 @@ CMakeFiles/minishell.dir/src/job.c.o: \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/job.h \
- /home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/include/shell.h
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/job.h \
+ /home/afterstatue/workspace/MiniShell/MiniShell-1/minishell/include/shell.h

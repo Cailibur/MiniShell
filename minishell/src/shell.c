@@ -68,8 +68,13 @@ void shell_loop(void) {
         struct Token tokens[MAX_TOKENS];
         int token_count;
         
-        // 1.2 - 显示提示符 "MiniShell> ""
-        printf(COLOR_GREEN STYLE_BOLD "MiniShell> " STYLE_RESET);
+        char cwd[MAX_LINE];
+        printf(COLOR_GREEN STYLE_BOLD "MiniShell:" STYLE_RESET);
+        if (getcwd(cwd, sizeof(cwd)) != NULL) {
+            printf(COLOR_BBLUE STYLE_BOLD "~%s", cwd);
+            printf(STYLE_RESET "$ ");
+        }
+
         fflush(stdout); // 强制刷新标准输出缓冲区（把缓冲区未显示的内容立刻打印）
 
         // 1.2 - 读取整行输入
