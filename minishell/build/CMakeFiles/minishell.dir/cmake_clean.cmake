@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/src/redirection.c.o.d"
   "CMakeFiles/minishell.dir/src/shell.c.o"
   "CMakeFiles/minishell.dir/src/shell.c.o.d"
+  "CMakeFiles/minishell.dir/src/signals.c.o"
+  "CMakeFiles/minishell.dir/src/signals.c.o.d"
   "CMakeFiles/minishell.dir/src/tokenizer.c.o"
   "CMakeFiles/minishell.dir/src/tokenizer.c.o.d"
   "minishell"

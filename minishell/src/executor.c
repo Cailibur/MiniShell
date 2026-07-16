@@ -2,6 +2,7 @@
 #include <unistd.h>     // 提供 fork execvp 系统调用
 #include <sys/wait.h>   // 提供 waitpid 等待子进程
 #include <fcntl.h>      // open() ... 
+#include <signal.h>
 #include "parser.h"
 #include "builtins.h"
 #include "executor.h"   // 声明头文件
@@ -22,11 +23,9 @@ void execute_command(struct Command *cmd) {
     // 子进程：执行真正的外部命令
     if (pid == 0) { // 当前在子进程中
         struct RedirectBackup backup;
-
         if (apply_redirection(cmd, &backup) != 0) {
             _exit(1);
         }
-
         execvp(cmd->argv[0], cmd->argv);    // 成功，后面代码不运行
         perror("execvp");   // execvp 失败才到这里
         _exit(1);

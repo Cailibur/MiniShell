@@ -297,6 +297,30 @@ src/shell.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/shell.c.s
 .PHONY : src/shell.c.s
 
+src/signals.o: src/signals.c.o
+.PHONY : src/signals.o
+
+# target to build an object file
+src/signals.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/signals.c.o
+.PHONY : src/signals.c.o
+
+src/signals.i: src/signals.c.i
+.PHONY : src/signals.i
+
+# target to preprocess a source file
+src/signals.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/signals.c.i
+.PHONY : src/signals.c.i
+
+src/signals.s: src/signals.c.s
+.PHONY : src/signals.s
+
+# target to generate assembly for a file
+src/signals.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/signals.c.s
+.PHONY : src/signals.c.s
+
 src/tokenizer.o: src/tokenizer.c.o
 .PHONY : src/tokenizer.o
 
@@ -351,6 +375,9 @@ help:
 	@echo "... src/shell.o"
 	@echo "... src/shell.i"
 	@echo "... src/shell.s"
+	@echo "... src/signals.o"
+	@echo "... src/signals.i"
+	@echo "... src/signals.s"
 	@echo "... src/tokenizer.o"
 	@echo "... src/tokenizer.i"
 	@echo "... src/tokenizer.s"

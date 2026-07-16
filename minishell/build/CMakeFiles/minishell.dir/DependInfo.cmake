@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/parser.c" "CMakeFiles/minishell.dir/src/parser.c.o" "gcc" "CMakeFiles/minishell.dir/src/parser.c.o.d"
   "/home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/redirection.c" "CMakeFiles/minishell.dir/src/redirection.c.o" "gcc" "CMakeFiles/minishell.dir/src/redirection.c.o.d"
   "/home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/shell.c" "CMakeFiles/minishell.dir/src/shell.c.o" "gcc" "CMakeFiles/minishell.dir/src/shell.c.o.d"
+  "/home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/signals.c" "CMakeFiles/minishell.dir/src/signals.c.o" "gcc" "CMakeFiles/minishell.dir/src/signals.c.o.d"
   "/home/cailibur/文档/Cscript/MiniShell/MiniShell/minishell/src/tokenizer.c" "CMakeFiles/minishell.dir/src/tokenizer.c.o" "gcc" "CMakeFiles/minishell.dir/src/tokenizer.c.o.d"
   "" "minishell" "gcc" "CMakeFiles/minishell.dir/link.d"
   )

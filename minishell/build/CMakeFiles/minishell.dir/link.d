@@ -9,6 +9,7 @@ minishell: \
   CMakeFiles/minishell.dir/src/parser.c.o \
   CMakeFiles/minishell.dir/src/redirection.c.o \
   CMakeFiles/minishell.dir/src/shell.c.o \
+  CMakeFiles/minishell.dir/src/signals.c.o \
   CMakeFiles/minishell.dir/src/tokenizer.c.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
@@ -51,6 +52,8 @@ CMakeFiles/minishell.dir/src/parser.c.o:
 CMakeFiles/minishell.dir/src/redirection.c.o:
 
 CMakeFiles/minishell.dir/src/shell.c.o:
+
+CMakeFiles/minishell.dir/src/signals.c.o:
 
 CMakeFiles/minishell.dir/src/tokenizer.c.o:
 

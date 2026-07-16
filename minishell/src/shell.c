@@ -11,6 +11,7 @@
 #include "redirection.h"
 #include "color.h"
 #include "job.h"
+#include "signals.h"
 
 // 4.1
 int redirect_output(struct Command *cmd) {
@@ -64,6 +65,7 @@ void shell_loop(void) {
     int history_count = 0;
 
     while (1) {
+        init_signal_handlers();
         // 4.0
         struct Token tokens[MAX_TOKENS];
         int token_count;
